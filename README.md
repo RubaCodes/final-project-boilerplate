@@ -41,7 +41,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
 
 <br>
 
-## Lo scaffolding di Autenticazione e di separazione tra Front-End SPA e Back-end monolitico **E' GIA STATO REALIZZATO ED E' PRONTO PER ESSERE USATO** siete liberi di apportare le modifiche che volete a vostro rischio e pericolo. La procedura ha seguito perfettamente quella vista a lezione, quindi se avete problemi le lezione e le slide sapete dove sono.
+## Lo scaffolding di Autenticazione e di separazione tra Front-End SPA e Back-end monolitico **E' GIA STATO REALIZZATO ED E' PRONTO PER ESSERE USATO**. Siete liberi di apportare le modifiche che volete a vostro rischio e pericolo. La procedura ha seguito perfettamente quella vista a lezione, quindi se avete problemi le lezioni e le slide sapete dove sono.
 
 <br><br>
 
@@ -64,14 +64,15 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
     > `FILESYSTEM_DRIVER=public`
 -   Creiamo il symlink "storage" nella cartella public che punta alla cartella _storage/app/public_:
 
-    > `php artisan storage link`
+    > `php artisan storage:link`
 
 <br>
 
 4. ## Laravel Mail
 
-<!-- -   Per drivers API based come mailgun utilizziamo la libreria guzzle:
-    > `composer require guzzlehttp/guzzle` -->
+-   Per drivers API based come mailgun utilizziamo la libreria guzzle (gia' inclusa con composer install eseguito precedentemente):
+
+    > `composer require guzzlehttp/guzzle`
 
 -   Per testare l’invio delle Mail useremo [Mailtrap](https://Mailtrap.io) iscrivetevi e inserite i dati configurazione sul file **.env**:
     <br>
