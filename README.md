@@ -24,11 +24,13 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
 
 -   Clonare la repo : git clone url repo oppure download da github
 -   Installare i pacchetti _PHP_ e _JS_ :
+
     > `composer install & npm install`
--   Generare la chiave personale:
-    > `php artisan key:generate`
+
 -   Creare il proprio file .env per le variabili di ambiente locali
 -   Copiare il file .env-example nel file .env e seguire le istruzioni al suo interno
+-   Generare la chiave personale:
+    > `php artisan key:generate`
 -   Eseguire il comando per pulire la cache del config
 
     > `php artisan config:clear`
