@@ -41,6 +41,8 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
 
 <br>
 
+1.5 Lo scaffolding per l'autenticazione e la SPA e' gia' incluso ed ottenuto seguendo passo passo la guida delle slide
+
 2. ## Collegamento al database
 
 -   Avviare XAMPP O MAMPP
@@ -53,18 +55,6 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
     > `php artisan db:seed`
 
 <br>
-
-<!-- 3. ## Laravel Authentication [Laravel 7.0]
-
-<br>
-
--   Installare laravel/ui:
-    > `composer require laravel/ui:^2.4`
--   Creiamo lo **scaffolding auth con vue**:
-
-    > `php artisan ui vue --auth`
-
-     <br> -->
 
 3. ## Laravel Storage per asset Media
 
