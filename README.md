@@ -20,7 +20,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
 
 # Boilerplate Progetto Finale
 
-## Inizializzazione progetto
+1. ## Inizializzazione progetto
 
 -   Clonare la repo : git clone url repo oppure download da github
 -   Installare i pacchetti _PHP_ e _JS_ :
@@ -37,9 +37,11 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
 
     > `php artisan serve & npm run watch`
 
-    (se non funzionano assieme lanciateli in due termininali diversi)
+    (se non funzionano assieme lanciateli in due terminali diversi)
 
-## Collegamento al database
+<br>
+
+2. ## Collegamento al database
 
 -   Avviare XAMPP O MAMPP
 -   Parametri di connessione al database:
@@ -50,7 +52,40 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
 
     > `php artisan db:seed`
 
-    <br>
+<br>
+
+3. ## Laravel Authentication [Laravel 7.0]
+
+<br>
+
+-   Installare laravel/ui:
+    > `composer require laravel/ui:^2.4`
+-   Creiamo lo **scaffolding auth con vue**:
+
+    > `php artisan ui vue --auth`
+
+     <br>
+
+4. ## Laravel Storage per asset Media
+
+<br>
+
+-   Impostiamo il Driver di default in public, il parametro e' gia stato inserito nell'ultima rida di .env-example:
+    > `FILESYSTEM_DRIVER=public`
+-   Creiamo il symlink "storage" nella cartella public che punta alla cartella _storage/app/public_:
+
+    > `php artisan storage link`
+
+5. ## Laravel Mail
+
+<br>
+
+-   Per drivers API based come mailgun utilizziamo la libreria guzzle:
+    > `composer require guzzlehttp/guzzle`
+-   Per testare l’invio delle Mail useremo [Mailtrap](https://Mailtrap.io) iscrivetevi e inserite i dati configurazione sul file **.env**
+
+<br>
+<br>
 
 # Elenco Comandi Fondamentali
 
