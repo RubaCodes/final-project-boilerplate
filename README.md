@@ -41,7 +41,9 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
 
 <br>
 
-1.5 Lo scaffolding per l'autenticazione e la SPA e' gia' incluso ed ottenuto seguendo passo passo la guida delle slide
+## Lo scaffolding di Autenticazione e di separazione tra Front-End SPA e Back-end monolitico **E' GIA STATO REALIZZATO ED E' PRONTO PER ESSERE USATO** siete liberi di apportare le modifiche che volete a vostro rischio e pericolo. La procedura ha seguito perfettamente quella vista a lezione, quindi se avete problemi le lezione e le slide sapete dove sono.
+
+<br><br>
 
 2. ## Collegamento al database
 
