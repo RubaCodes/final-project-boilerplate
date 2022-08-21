@@ -54,7 +54,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
 
 <br>
 
-3. ## Laravel Authentication [Laravel 7.0]
+<!-- 3. ## Laravel Authentication [Laravel 7.0]
 
 <br>
 
@@ -64,25 +64,26 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
 
     > `php artisan ui vue --auth`
 
-     <br>
+     <br> -->
 
-4. ## Laravel Storage per asset Media
+3. ## Laravel Storage per asset Media
 
-<br>
-
--   Impostiamo il Driver di default in public, il parametro e' gia stato inserito nell'ultima rida di .env-example:
+-   Impostiamo il Driver di default in public, il parametro e' gia stato inserito nell'ultima rida di .env-example, quindi una volta eseguita la copia in env dovrevve risultare gia' settato:
     > `FILESYSTEM_DRIVER=public`
 -   Creiamo il symlink "storage" nella cartella public che punta alla cartella _storage/app/public_:
 
     > `php artisan storage link`
 
-5. ## Laravel Mail
-
 <br>
 
--   Per drivers API based come mailgun utilizziamo la libreria guzzle:
-    > `composer require guzzlehttp/guzzle`
--   Per testare l’invio delle Mail useremo [Mailtrap](https://Mailtrap.io) iscrivetevi e inserite i dati configurazione sul file **.env**
+4. ## Laravel Mail
+
+<!-- -   Per drivers API based come mailgun utilizziamo la libreria guzzle:
+    > `composer require guzzlehttp/guzzle` -->
+
+-   Per testare l’invio delle Mail useremo [Mailtrap](https://Mailtrap.io) iscrivetevi e inserite i dati configurazione sul file **.env**:
+    <br>
+    > `MAIL_MAILER=smtp` <br> `MAIL_HOST=smtp.mailtrap.io` <br> `MAIL_USERNAME=null`<br> `MAIL_PASSWORD=null` <br> `MAIL_ENCRYPTION=null` <br> `MAIL_FROM_ADDRESS=null` <br> `MAIL_FROM_NAME="${APP_NAME}"`
 
 <br>
 <br>
