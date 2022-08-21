@@ -28,7 +28,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
     > `composer install & npm install`
 
 -   Creare il proprio file .env per le variabili di ambiente locali
--   Copiare il file .env-example nel file .env e seguire le istruzioni al suo interno
+-   Copiare il contenuto del file .env-example nel file .env e seguire le istruzioni al suo interno. Nel file di esempio e' gia settato lo storage driver in public, quindi non servira' aggiungerlo in seguito.
 -   Generare la chiave personale:
     > `php artisan key:generate`
 -   Eseguire il comando per pulire la cache del config
@@ -43,13 +43,13 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
 
 <br>
 
-## Lo scaffolding di Autenticazione e di separazione tra Front-End SPA e Back-end monolitico **E' GIA STATO REALIZZATO ED E' PRONTO PER ESSERE USATO**. Siete liberi di apportare le modifiche che volete a vostro rischio e pericolo. La procedura ha seguito perfettamente quella vista a lezione, quindi se avete problemi le lezioni e le slide sapete dove sono.
+## Lo scaffolding di Autenticazione e di separazione tra Front-End SPA e Back-end monolitico **E' GIA STATO REALIZZATO ED E' PRONTO PER ESSERE USATO**. Siete liberi di apportare le modifiche che volete a vostro rischio e pericolo. La procedura ha seguito perfettamente quella vista a lezione, quindi se avete problemi sapete dove recuperare lezioni e slide.
 
-<br><br>
+<br>
 
 2. ## Collegamento al database
 
--   Avviare XAMPP O MAMPP
+-   Avviare il server mysql/apache da xampp/mampp per avere acccesso al database e a phpMyAdmin
 -   Parametri di connessione al database:
     inserire la porta del DB, il nome del DB, utente/password [se esiste]
 -   Eseguire le migrazioni:
@@ -62,7 +62,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help.
 
 3. ## Laravel Storage per asset Media
 
--   Impostiamo il Driver di default in public, il parametro e' gia stato inserito nell'ultima rida di .env-example, quindi una volta eseguita la copia in env dovrevve risultare gia' settato:
+-   Impostiamo il Driver di default in public, il parametro e' gia stato inserito nell'ultima rida di .env-example, quindi una volta eseguita la copia in env dovrebbe risultare gia' settato:
     > `FILESYSTEM_DRIVER=public`
 -   Creiamo il symlink "storage" nella cartella public che punta alla cartella _storage/app/public_:
 
